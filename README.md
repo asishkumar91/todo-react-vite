@@ -35,7 +35,7 @@ npm run dev
 ```
 4. Open the app in browser at the URL shown in terminal (usually http://localhost:5173)
 
-# Deployment
+## Deployment
 The app is deployed using GitHub Pages. To update the live site after changes:
 ```
 npm run build
@@ -43,9 +43,10 @@ npm run deploy
 ```
 
 ## Tech Stack
-React – Frontend library
-Vite – Build tool
-CSS – Styling
+React – Frontend library  
+Vite – Build tool  
+CSS – Styling  
+
 ## Notes
-Changes in the main branch need to be committed and pushed first.
+Changes in the main branch need to be committed and pushed first.  
 gh-pages branch hosts the live build on GitHub Pages.
