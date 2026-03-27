@@ -21,12 +21,15 @@ The app also **persists tasks locally**, so data remains even after refreshing t
 ```bash
 git clone https://github.com/asishkumar91/todo-react-vite.git
 cd todo-react-vite
+```
 
 
 # Install dependencies
-```bash
+```
 npm install
+```
 
 # Start development server
-```bash
+```
 npm run dev
+```
