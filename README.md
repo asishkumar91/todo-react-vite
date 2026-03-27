@@ -1,12 +1,29 @@
-# React + Vite
+# Todo Task Planner (Vite + React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Todo Task Planner** built with **React** and **Vite**.  
+Users can add tasks, mark them complete, view all tasks, and delete tasks.  
+The app also **persists tasks locally**, so data remains even after refreshing the page.
 
-Currently, two official plugins are available:
+## Features
+- Add new tasks
+- Mark tasks as completed (they disappear from active list)
+- View all tasks (completed and active)
+- Delete tasks
+- Persistent storage using browser’s localStorage
+- Built with **Vite + React** for fast development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+ 👉 https://asishkumar91.github.io/todo-react-vite/
 
-## Expanding the ESLint configuration
+## Installation (for local development)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repo:
+```bash
+git clone https://github.com/asishkumar91/todo-react-vite.git
+cd todo-react-vite
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
